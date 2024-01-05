@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="work2.css">
+</head>
+<body>
+    <a href="index.html"><img src="/icons8-home-24.png" alt=""></a> 
+
+    <!-- <img src="/icons8-home-24.png" alt=""> -->
+      <!-- <h1 id="output"></h1> -->
+     
+          <div class="main">
+            <h1>Converting Cm to Inches</h1>
+
+                <div class="name">
+                        <div class="hint">
+                                <input type="text" id="input" placeholder="cm">=
+                                <input type="text" id="output" placeholder="inches">
+                        </div>
+                        
+                        <div class="gap">
+                            <button type="button" onclick="display()">Clickme</button>
+                        </div>
+                </div>
+        </div>
+       <script>
+        function display() {
+        let output=document.getElementById("output")
+        let input=document.getElementById("input").value
+        // output.innerHTML=input/2.54
+        output.value=input/2.54
+        } 
+
+
+
+       </script>
+
+      <!-- <script src="work.js"></script> -->
+</body>
+</html>
